@@ -17,11 +17,11 @@ $(document).ready(function () {
           robotArray.push(i);
         };
       }; //closes for
-      console.log(robotArray);
       var results = [];
       $.each(robotArray, function (i, phrase) {
         results.push('<li>' + phrase + '</li>');
       });
       $ ('#output').append(results.join(''));
+      $('#userNumber').val('')
     }); //closes button click
 });//closes doc ready

@@ -1,0 +1,38 @@
+.robot {
+  /* some of the styling for this css was found here https://css-tricks.com/old-timey-terminal-styling/ */
+  background-color: black;
+  background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%
+  );
+  height: 450px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+  color: white;
+  font: 1.3rem Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
+  /* found here: https://stackoverflow.com/questions/21227287/make-div-scrollable */
+  overflow-y:auto;
+  border: 10px solid darkgray;
+}
+.input {
+  background-color: gray;
+  padding: 10px;
+  font: 1.3rem Inconsolata, monospace;
+  text-align: center;
+}
+.btn {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 1px 2px #4d4d4d;
+}
+.container  {
+  background: black;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+ul  {
+  text-align: left;
+}
