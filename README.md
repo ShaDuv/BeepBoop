@@ -6,7 +6,9 @@
 
 ## Description
 
-_This is a simple web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
+_This web application can be found at https://shaduv.github.io/BeepBoop/ for preview or at https://github.com/ShaDuv/BeepBoop for the repository.
+
+This is a simple web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
 
 
 Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
