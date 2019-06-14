@@ -17,8 +17,11 @@ $(document).ready(function () {
           robotArray.push(i);
         };
       }; //closes for
-      robotArray = robotArray.toString()
       console.log(robotArray);
-      $("#ul").append(robotArray)
+      var results = [];
+      $.each(robotArray, function (i, phrase) {
+        results.push('<li>' + phrase + '</li>');
+      });
+      $ ('#output').append(results.join(''));
     }); //closes button click
 });//closes doc ready
